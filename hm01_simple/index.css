@@ -1,0 +1,41 @@
+h1 p {
+font-weight: bold;
+padding: auto;
+background:red;
+width: 760px;
+height: 40px;
+text-align: center;
+}
+
+
+section p {
+padding: auto;
+width: 760px;
+height: 90px;
+text-align: justify;
+}
+
+
+.f2 {
+width: 760px;
+height: 50px;
+text-align: center;
+}
+
+
+div {
+width: 400px;
+height: 50px;
+}
+
+
+div img {
+border: dashed;
+margin-left: auto;
+margin-right: auto
+}
+
+
+
+
+
