@@ -29,18 +29,6 @@ opacity:0.5;
 text-align:center;
 }
 
-/*.card_1{
-width: 240px;
-height: 420px;
-opacity:0.5;
-text-align:center;
-background-repeat: no-repeat;
-background-position-x:center;
-background-position-y:50px;
-background-size: 64px 66px;
-background-image: url(./icons/anchor.svg);
-}*/
-
 /*.card_1:hover{
 background-color:#0ec8cb;
 color:white;
