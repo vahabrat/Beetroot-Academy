@@ -49,6 +49,7 @@ width: 1400px;
 height: 940px;
 margin-top:200px;
 margin:auto;
+margin-bottom:200px;
 box-shadow: 0 4px 68px rgba(0, 0, 0, 0.1);
 }
 
@@ -72,14 +73,20 @@ padding-top:0px;
 */
 
 
-p.lato:nth-of-type(1)::first-letter{
+section p.lato:nth-of-type(1)::first-letter{
+width: 62px;
+height: 79px;
 font-family: "Playfair Display";
-color: #171717;
+color: black;
 font-size: 110px;
 font-weight: 400;
 line-height: 34px;
 text-transform: uppercase;
-
+float: left;
+margin-right: 20px;
+margin-top: 30px;
+margin-bottom:20px;
+opacity:1.5;
 }
 
 input{
@@ -96,8 +103,9 @@ text-transform: uppercase;
 margin: 0px 129.5px;
 }
 
-footer p{
-margin:auto;
+.lato_1:before{
+content: '“';
+font-size: 60px;
 }
 
 .lato{
