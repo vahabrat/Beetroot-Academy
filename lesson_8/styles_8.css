@@ -1,4 +1,3 @@
-
 @font-face{
 font-family: Raleway-Light;
 src:url(./fonts/Raleway-Light.ttf);
@@ -157,6 +156,7 @@ line-height: 25px;
 text-transform: uppercase;
 margin:auto;
 transition: .3s;
+border:none;
 }
 
 button:hover{
