@@ -1,0 +1,169 @@
+@font-face{
+font-family: Raleway-Light;
+src:url(./fonts_9/Raleway-Light.ttf);
+font-weight:Light;
+}
+
+@font-face{
+font-family: Raleway-Bold;
+src:url(./fonts_9/Raleway-Bold.ttf);
+font-weight:Bold;
+}
+
+@font-face{
+font-family:Pacifico-Regular;
+src:url(./fonts_9/Pacifico-Regular.ttf);
+font-weight:Normal;
+}
+
+*{
+box-sizing:border-box;
+}
+
+.container-1{
+background-image:url(./images_9/img_top.png);
+background-size: cover;
+height: 100vh;
+}
+
+.header{
+display:flex;
+justify-content:space-between;
+}
+
+.header__logo{
+display:inline-block;
+margin-left:164px;
+margin-top:50px;
+font-family:Pacifico-Regular;
+font-size: 50px;
+font-weight: 400;
+line-height: 25px;
+}
+
+.header_nav{
+display:flex;
+height:80px;
+}
+
+
+.navigation{
+display:flex;
+height:80px;
+}
+
+.navigation__item{
+display:inline-block;
+font-family: Raleway-Bold;
+font-size: 16px;
+line-height: 25px;
+text-transform: uppercase;
+margin: 20px;
+position:relative;
+}
+
+
+.navigation__item--active{
+display:block;
+padding-bottom:30px;
+}
+
+.navigation__item--active:before{
+content:url(./images_9/active.png);
+display:block;
+position: absolute;
+top:-20px;
+}
+
+.title-container--black{
+display:inline-block;
+align-items:center;
+margin-left:164px;
+margin-top:158px;
+}
+
+.title-container__title--black{
+display:block;
+width: 287px;
+height: 46px;
+color: #262626;
+font-size: 60px;
+font-family: Raleway-Bold;
+font-weight: 400;
+line-height: 25px;
+}
+
+.title-container__description--black{
+display:block;
+width: 368px;
+height: 70px;
+color: #262626;
+font-family: Raleway-Light;
+font-size: 17px;
+font-weight: 300;
+line-height: 27px;
+margin-top:34px;
+}
+
+
+.container-2{
+background-image:url(./images_9/img_bottom.png);
+display:flex;
+flex-wrap:wrap;
+justify-content:space-around;
+}
+
+
+.container-2__img-container{
+width: 566px;
+height: 559px;
+background-image:url(./images_9/raspberry.png);
+background-repeat:no-repeat;
+background-size: cover;
+}
+
+
+
+
+
+.title-container--white{
+width: 566px;
+height: 559px;
+padding:30px;
+}
+
+
+
+
+
+
+
+.title-container{
+width: 566px;
+height: 559px;
+padding:30px;
+}
+
+
+
+.title-container__title--white{
+display:inline-block;
+color: #ffffff;
+width: 395px;
+height: 67px;
+font-family: Raleway-Bold;
+font-size: 90px;
+line-height: 27px;
+}
+
+
+.title-container__description--white{
+display:inline-block;
+color: #ffffff;
+width: 499px;
+height: 188px;
+font-family: Raleway-Light;
+font-size: 17px;
+font-weight: 300;
+line-height: 27px;
+}
