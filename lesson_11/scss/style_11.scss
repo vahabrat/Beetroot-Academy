@@ -236,8 +236,6 @@ transform: translate(0, 4px);
     }
 }
 
-
-
 .main-container--third{
     display:flex;
     height: 790px;
@@ -255,19 +253,14 @@ transform: translate(0, 4px);
     }
 }
 
-
-
-
 .list{
-
     height:480px;
     width:400px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     margin-top:59px;
 }
 
 .list__item{
-    display:inline-block;
+    display:flex;
     margin-top:20px;
     height:100px;
     width:400px;
@@ -275,18 +268,49 @@ transform: translate(0, 4px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
-
-
-
-
 .list__item--name{
-
+    display:inline-flex;
+    width:300px;
+    height:100px;
+    @extend %titlecontainertitle;
+    margin:0px;
+    text-align:center;
+    align-items:center;
+    justify-content:center;
+    flex-wrap:wrap;
 }
 
 .list__item--img{
-
+    display:inline-block;
+    width:100px;
+    height:100px;
+    border-left: solid 1px;
+    border-color:#d0d0d0;
 }
 
+.list__item:nth-of-type(1)>.list__item--img{
+    background-image:url(../images_11/icon_3_1.png);
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.list__item:nth-of-type(2)>.list__item--img{
+    background-image:url(../images_11/icon_3_2.png);
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.list__item:nth-of-type(3)>.list__item--img{
+    background-image:url(../images_11/icon_3_3.png);
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.list__item:nth-of-type(4)>.list__item--img{
+    background-image:url(../images_11/icon_3_4.png);
+    background-repeat:no-repeat;
+    background-position:center;
+}
 
 .title-container--img{
     width: 462px;
@@ -309,4 +333,210 @@ transform: translate(0, 4px);
     }
 }
 
+.main-container--fourth{
+    height: 1536px;
+    background-color: #ffe92f;
+    margin:auto;
 
+    .title-container-fourth{
+        display:inline-block;
+        flex-wrap:wrap;
+        height:185px;
+        width: 1500px;
+        margin:auto;
+        margin-top:100px;
+
+
+        .title-container__title-fourth{
+            display:block;
+            width: 307px;
+            height: 87px;
+            font-size: 90px;
+
+            color: #262626;
+            @extend %titlecontainertitle;
+            margin:auto;
+            color: #262626;
+
+        }
+        .title-container__description-fourth{
+            display:block;
+            width: 577px;
+            height: 70px;
+            line-height: 27px;
+            @extend %titlecontainerdescription;
+            color: #262626;
+            text-align:center;
+            margin:28px auto 0px;
+        }
+
+
+    }
+
+}
+
+
+
+
+
+
+.img-container{
+    display:flex;
+    height:980px;
+    width:1170px;
+    flex-direction:column;
+    flex-wrap:wrap;
+    margin:auto;
+    margin-top:46px;
+
+    .img-container-top{
+        display:flex;
+        width:1170px;
+        height:550px;
+        justify-content:space-between;
+
+        .img-container-big{
+            width: 770px;
+            height: 550px;
+            background-image:url(../images_11/yellow_big.png);
+            @extend %bgimgproperties;
+        }
+        .img-container-small{
+            display:flex;
+            width: 370px;
+            height:550px;
+            flex-direction:column;
+
+            .img-small_1{
+                display:inline-block;
+                width: 370px;
+                height: 260px;
+                background-image:url(../images_11/yellow_small_1.png);
+                @extend %bgimgproperties;
+            }
+
+            .img-small_2{
+                display:inline-block;
+                width: 370px;
+                height: 260px;
+                background-image:url(../images_11/yellow_small_2.png);
+                @extend %bgimgproperties;
+                margin-top:30px;
+
+            }
+
+        }
+
+    }
+    .img-container-bottom{
+        display:inline-flex;
+        width:1170px;
+        height:400px;
+        justify-content:space-between;
+        margin-top:30px;
+
+
+        .img-medium_1{
+            display:inline-block;
+            width: 570px;
+            height: 400px;
+            background-image:url(../images_11/yellow_medium_1.png);
+            @extend %bgimgproperties;
+        }
+
+        .img-medium_2{
+            display:inline-block;
+            width: 570px;
+            height: 400px;
+            background-image:url(../images_11/yellow_medium_2.png);
+            @extend %bgimgproperties;
+
+        }
+    }
+}
+
+
+.button_yellow{
+    @extend %button;
+    background-color: #5585a2;
+    margin-top:50px;
+}
+
+.button_yellow:hover{
+    @extend %buttonhover;
+}
+
+
+.main-container-fifth{
+    height: 500px;
+    background-image:url(../images_11/bg_blueberry.png);
+    @extend %bgimgproperties;
+
+    .title-container-fifth{
+        display:inline-block;
+        height:106px;
+        width: 541px;
+        align-items:center;
+        margin-left:164px;
+        margin-top:145px;
+
+        .title-container__title-fifth{
+            display:inline-block;
+            width: 305px;
+            height: 29px;
+            font-size: 40px;
+            line-height: 27px;
+            color: #262626;
+            @extend %titlecontainertitle;
+            margin:0;
+        }
+
+        .title-container__description-fifth{
+            display:inline-block;
+            width: 542px;
+            height: 43px;
+            margin-top:34px;
+            @extend %titlecontainerdescription;
+
+        }
+    }
+
+
+    .subscription{
+        display:flex;
+        width:770px;
+        height:55px;
+        justify-content:space-between;
+        margin-left:164px;
+        margin-top:31px;
+
+        .subscription__email{
+            width: 570px;
+            height: 55px;
+            border: 1px solid #262626;
+            padding-left:18px;
+            padding-top:22px;
+            padding-bottom:22px;
+
+        }
+
+        .subscription__email::placeholder{
+            @extend %titlecontainerdescription;
+            font-size: 15px;
+            color: #262626;
+            opacity: 0.5;
+
+        }
+        .subscription__button{
+            display:inline-block;
+            @extend %button;
+            width: 170px;
+            background-color: #96b92c;
+            margin-top:-6px;
+            margin-left:30px;
+        }
+        .subscription__button:hover{
+            @extend %buttonhover;
+        }
+    }
+}
