@@ -13,18 +13,18 @@
         <p class="header__logo">Cahee</p>
         <nav class="header__nav">
             <ul class="navigation">
-                <li class="navigation__item ">Home</li>
-                <li class="navigation__item">About</li>
-                <li class="navigation__item">Services</li>
-                <li class="navigation__item">Gallery</li>
-                <li class="navigation__item">Blog</li>
-                <li class="navigation__item">Contact</li>
+                <li class="navigation__item"><a href="#p1">Home</a></li>
+                <li class="navigation__item"><a href="#p2">About</a></li>
+                <li class="navigation__item"><a href="#p3">Services</a></li>
+                <li class="navigation__item"><a href="#p4">Gallery</a></li>
+                <li class="navigation__item"><a href="#p5">Blog</a></li>
+                <li class="navigation__item"><a href="#p6">Contact</a></li>
             </ul>
         </nav>
     </header>
     <div class="main-container main-container--first">
         <div class="title-container title-container_strawberry">
-            <h2 class="title-container__title">Fresh Life</h2>
+            <h2 class="title-container__title" id="p1">Fresh Life</h2>
             <p class="title-container__description">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
             <button class="title-container__button">GET FREE NOW</button>
         </div>
@@ -33,7 +33,7 @@
         <div class="content-container">
             <div class="img-container"></div>
             <div class="title-container title-container-raspberry">
-                <h2 class="title-container__title ">About Us</h2>
+                <h2 class="title-container__title" id="p2">About Us</h2>
                 <p class="title-container__description ">Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.<br><br>
                 Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
                 </p>
@@ -61,13 +61,13 @@
                 </div>
             </div>
             <div class="title-container title-container--img">
-                <h2 class="title-container__title">Our Services</h2>
+                <h2 class="title-container__title" id="p3">Our Services</h2>
             </div>
         </div>
     </div>
     <div class="main-container main-container--fourth">
         <div class="title-container-fourth">
-            <h2 class="title-container__title-fourth">Gallery</h2>
+            <h2 class="title-container__title-fourth" id="p4">Gallery</h2>
             <p class="title-container__description-fourth">
                 Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
@@ -101,7 +101,7 @@
     </div>
     <div class="main-container main-container--sixth">
         <div class="title-container title-container--sixth">
-            <h2 class="title-container__title title-container__title--sixth">Blog</h2>
+            <h2 class="title-container__title title-container__title--sixth"id="p5">Blog</h2>
             <p class="title-container__description title-container__description--sixth">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
         </div>
         <div class="card_container">
@@ -142,53 +142,46 @@
         <button class="button--sixth">VIEW MORE</button>
     </div>
 
-    <div class="main-container">
-        <div class="title-container">
-            <h2 class="title-container__title">Contact</h2>
-            <p class="title-container__description">
+    <div class="main-container main-container--seven">
+        <div class="title-container title-container--seven">
+            <h2 class="title-container__title title-container__title--seven" id="p6">Contact</h2>
+            <p class="title-container__description title-container__description--seven">
                For new projects, ideas, business or anything you'd like to discuss, contact with me!
             </p>
         </div>
-        <form class="main-form">
-            <div class="input__fname">
-                <input placeholder="Your full name..." type="text" name="fname">
-            </div>
-            <div class="input__email">
-                <input placeholder="Your email..." type="email" name="email">
-            </div>
-            <div class="input__tel">
-                <input placeholder="Your phone number..." type="tel" name="tel">
-            </div>
-            <div class="input__text">
-                <textarea placeholder="Your message..." name="message" rows="1wa" cols="20"></textarea>
-            </div>
-        </form>
-        <div class="contact-container">
-            <div class="contact-container__address">
-                <p class="contact__name">ADDRESS</p>
-                <p class="contact__content">123 City name, Street, City, Country</p>
-            </div>
-            <div class="contact-container__email">
-                <p class="contact__name">EMAIL</p>
-                <p class="contact__content">cahee@domain.com</p>
-            </div>
-            <div class="contact-container__phone">
-                <p class="contact__name">PHONE</p>
-                <p class="contact__content">+012 345 6789</p>
+        <div class="content-container--seven">
+            <form class="mainform">
+                <input class="mainform__input form__input--fname" placeholder="Your full name..." type="text" name="fname">
+                <input class="mainform__input form__input--email" placeholder="Your email..." type="email" name="email">
+                <input class="mainform__input form__input--tel" placeholder="Your phone number..." type="tel" name="tel">
+                <textarea class="mainform__input form__input--text" placeholder="Your message..." name="message"></textarea>
+            </form>
+            <div class="main-contact-container">
+                <div class="contact-container">
+                    <p class="contact-container__name">ADDRESS</p>
+                    <p class="contact-container__content">123 City name, Street, City, Country</p>
+                </div>
+                <div class="contact-container">
+                    <p class="contact-container__name">EMAIL</p>
+                    <p class="contact-container__content">cahee@domain.com</p>
+                </div>
+                <div class="contact-container">
+                    <p class="contact-container__name">PHONE</p>
+                    <p class="contact-container__content">+012 345 6789</p>
+                </div>
             </div>
         </div>
+
     </div>
     <footer class="footer-container">
-        <div>
-            <p class="footer__rights">© 2015 Company. All right reserved.</p>
-        </div>
-        <div>
-            <p class="footer__logo">Cahee</p>
-        </div>
-        <div>
-            <p class="footer__creator">Made with <p class="footer__creator footer__creator--red">love<p> by Auskteez</p>
+        <div class="footer-content-container">
+
+            <p class="footer-content footer-content--rights">© 2015 Company. All right reserved.</p>
+
+            <p class="footer-content footer-content--logo">Cahee</p>
+
+            <p class="footer-content footer-content--creator">Made with <span class="footer-content--creator-red">love</span> by Auskteez</p>
         </div>
     </footer>
 </body>
-
 </html>
