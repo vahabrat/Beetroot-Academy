@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style_11.css">
+    <link rel="stylesheet" href="./css/style_11.css">\
+
     <title>Document</title>
 </head>
 
@@ -12,7 +13,11 @@
     <header class="header">
         <div class="header-content">
             <p class="header-content__logo">Cahee</p>
-            <nav class="header-content__nav">
+            <div class="menu-button" id="hamburger_button">
+                <span class="span-menu">
+                </span>
+            </div>
+            <nav class="header-content__nav" id="hamburger_menu">
                 <ul class="navigation">
                     <li class="navigation__item"><a href="#p1">Home</a></li>
                     <li class="navigation__item"><a href="#p2">About</a></li>
@@ -23,14 +28,13 @@
                 </ul>
             </nav>
         </div>
-
     </header>
     <div class="main-container main-container--first">
         <div class="title-container title-container_strawberry">
             <h2 class="title-container__title" id="p1">Fresh Life</h2>
             <p class="title-container__description">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-            <button class="title-container__button">GET FREE NOW</button>
         </div>
+        <button class="title-container__button">GET FREE NOW</button>
     </div>
     <div class="main-container main-container--second">
         <div class="content-container">
@@ -186,5 +190,7 @@
             <p class="footer-content footer-content--creator">Made with <span class="footer-content--creator-red">love</span> by Auskteez</p>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.0.slim.min.js" integrity="sha256-MlusDLJIP1GRgLrOflUQtshyP0TwT/RHXsI1wWGnQhs=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>
