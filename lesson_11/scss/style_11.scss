@@ -140,8 +140,9 @@ a{
         bottom:0;
     }
 
-    .span-menu.active {
-        transform: scale(0);
+    .menu-button.active .span-menu {
+        opacity:0;
+
     }
 
     .menu-button.active::before{
