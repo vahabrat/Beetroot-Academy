@@ -1,0 +1,50 @@
+.header{
+    display:flex;
+    position:relative;
+    bottom:0;
+    height: 80px;
+    background-color: #5474fd;
+    justify-content:space-between;
+
+    .header-content{
+        display:inline-flex;
+        width:1110px;
+        align-items:center;
+        justify-content:space-between;
+        margin:auto;
+
+        .header-content__logo{
+            display:inline-flex;
+            font-family: Josefin Sans-Bold;
+            font-size: 24px;
+            line-height: 26px;
+            text-transform: uppercase;
+            color: #ffffff;
+        }
+
+        .header-content__nav{
+            display:inline-flex;
+
+            .navigation{
+                display:flex;
+                padding:0px;
+                margin:0px;
+
+                &__item{
+                    display:inline-block;
+                    font-family:Aleo;
+                    color: #ffffff;
+                    font-size: 14px;
+                    line-height: 26px;
+                    text-transform: uppercase;
+                    margin: 0px 21px;
+                }
+            }
+        }
+    }
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
