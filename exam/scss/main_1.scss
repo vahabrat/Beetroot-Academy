@@ -3,7 +3,7 @@
     background-size: cover;
 
     padding-top:265px;
-    padding-bottom:215px;
+    padding-bottom:0px;
     .content-container{
 
         .title-container{
@@ -19,30 +19,29 @@
                 justify-content:center;
                 text-transform: uppercase;
                 color: #ffffff;
-                font-family: Lato;
-                font-weight: 700;
-                font-size: 50px;
-                line-height: 60px;
+                font-family: Josefin Sans-Bold;
+                font-size: 48px;
+                line-height: 26px;
                 text-align:center;
-                margin-top:76px;
+                letter-spacing: 4.8px;
                 }
 
             .title-container__description{
                 display:flex;
                 text-align:center;
                 color: #ffffff;
-                font-size: 16px;
-                font-family: Lato;
-                font-weight: 300;
-                text-transform: uppercase;
-                line-height: 35px;
+                font-size: 22px;
+                font-family: Josefin Sans-Regular;
+                line-height: 26px;
                 margin:auto;
-                margin-top:42px;
+                margin-top:15px;
                 text-align:center;
+                letter-spacing: 6.82px;
                 }
 
             .title-container__form{
-
+                margin:auto;
+                margin-top:50px;
                 .form{
                     display:flex;
 
@@ -72,6 +71,7 @@
                 justify-content:center;
                 margin:auto;
                 margin-top:120px;
+                margin-bottom:135px;
                 .scroll-container__text{
                     color: #ffffff;
                     line-height: 26px;
