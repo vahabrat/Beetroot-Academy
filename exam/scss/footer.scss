@@ -1,0 +1,82 @@
+
+.main-container-7{
+    background-color:#232323;
+    padding-top:120px;
+    padding-bottom:50px;
+
+    .content-container{
+        display:flex;
+        justify-content:center;
+        .title-container{
+            display:inline-block;
+            text-align:center;
+            margin:auto;
+
+            .title-container__title{
+                font-family: Josefin Sans-Bold;
+                font-size: 24px;
+                color: #ffffff;
+                line-height: 26px;
+                text-transform: uppercase;
+                letter-spacing: 3.36px;
+            }
+            .title-container__description{
+                display:inline-block;
+                font-family: Josefin Sans-Regular;
+                line-height:10px;
+                color: #ffffff;
+                letter-spacing: 1.6px;
+                margin-top:15px;
+            }
+            .icons-container{
+                display:flex;
+                justify-content:space-between;
+                margin-top:30px;
+
+                .icons-container__icon1{
+                    display:inline-block;
+                    background-image:url(../images/facebook.svg);
+                    background-position:center;
+                    background-repeat:no-repeat;
+                    background-color:red;
+                    width: 45px;
+                    height: 45px;
+                }
+                .icons-container__icon2{
+                    display:inline-block;
+                    background-image:url(../images/twitter.svg);
+                    background-size:cover;
+
+                    width: 15px;
+                    height: 12px;
+                }
+                .icons-container__icon3{
+                    display:inline-block;
+                    background-image:url(../images/in.svg);
+                    background-size:cover;
+                    color:#e8e8e8;
+                    width: 15px;
+                    height: 14px;
+                }
+
+                .icons-container__icon4{
+                    display:inline-block;
+                    background-image:url(../images/youtube.svg);
+                    background-size:cover;
+                    color:#e8e8e8;
+                    width: 17px;
+                    height: 12px;
+                }
+                .icons-container__icon5{
+                    display:inline-block;
+                    background-image:url(../images/viber.svg);
+                    background-size:cover;
+                    color:#e8e8e8;
+                    width: 14px;
+                    height: 14px;
+                }
+
+            }
+        }
+    }
+}

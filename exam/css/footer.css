@@ -1,0 +1,29 @@
+.main-container-7 {
+  background-color: #232323;
+}
+.main-container-7 .content-container .title-container {
+  display: inline-block;
+  margin: auto;
+}
+.main-container-7 .content-container .title-container .title-container__title {
+  font-family: Josefin Sans-Bold;
+  font-size: 24px;
+  color: #ffffff;
+  line-height: 26px;
+  text-transform: uppercase;
+  letter-spacing: 3.36px;
+}
+.main-container-7 .content-container .title-container .title-container__description {
+  font-family: Josefin Sans-Regular;
+  line-height: 26px;
+  color: #ffffff;
+  letter-spacing: 1.6px;
+}
+.main-container-7 .content-container .title-container .icons-container {
+  display: inline-block;
+  background-image: url(../images/instagramm.png);
+  background-size: cover;
+  color: black;
+  width: 17px;
+  height: 12px;
+}
