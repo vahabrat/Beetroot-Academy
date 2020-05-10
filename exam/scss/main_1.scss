@@ -23,7 +23,7 @@
                 font-family: Josefin Sans-Bold;
                 font-size: 48px;
                 line-height: 26px;
-                text-align:center;
+                margin:auto;
                 letter-spacing: 4.8px;
                 }
 
@@ -51,16 +51,37 @@
                         width: 500px;
                         height: 60px;
                         background-color: #ffffff;
+                        color: #999999;
+                        font-size: 14px;
+                        letter-spacing: 2.8px;
+                        text-align:center;
 
                     }
                     .form__submit{
-                        display:inline-block;
+
+                        display:inline-flex;
                         width: 150px;
                         height: 60px;
+                        font-family: Aleo;
                         border: 2px solid #ffffff;
                         background-color: #5474fd;
+                        font-size: 14px;
+                        color: #ffffff;
+                        text-transform: uppercase;
+                        letter-spacing: 1.4px;
+                        padding:20px 10px 20px 25px;
                         margin:0;
 
+
+
+                    }
+                    .form__submit:after{
+                    display:inline-flex;
+                    content:url(../images/search-icon.png);
+                    width: 20px;
+                    height: 20px;
+
+                    margin-left:15px;
                     }
                 }
 

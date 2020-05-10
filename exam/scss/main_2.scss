@@ -1,7 +1,10 @@
 .main-container-2{
     background-image:url(../images/bg_2.png);
+    background-position:center;
+    background-size:cover;
     padding-top:120px;
     padding-bottom:120px;
+
     .content-container{
         display:flex;
         justify-content:space-between;

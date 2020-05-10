@@ -1,17 +1,25 @@
 @font-face{
 font-family: Josefin Sans-Regular;
-src:url(../fonts_11/JosefinSans-Regular.ttf);
+src:url(../fonts/JosefinSans-Regular.ttf);
 font-weight:Normal;
 }
 
 @font-face{
 font-family: Josefin Sans-Bold;
-src:url(../fonts_11/JosefinSans-Bold.ttf);
+src:url(../fonts/JosefinSans-Bold.ttf);
 font-weight:Bold;
 }
 
 @font-face{
 font-weight:Normal;
 font-family: Aleo;
-src:url(../fonts_11/Aleo-Regular.ttf);
+src:url(../fonts/Aleo-Regular.ttf);
 }
+
+@font-face{
+font-family: FontAwesome;
+src:url(../fonts/fa-regular-400.ttf);
+font-weight:Normal;
+}
+
+

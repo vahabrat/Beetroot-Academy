@@ -1,3 +1,5 @@
+$fa-font-path:        "../webfonts";
+
 .main-container-6{
     background-image:url(../images/bg_6.png);
     background-size:cover;
@@ -55,16 +57,29 @@
 
             }
 
+
             .title-container__description{
                 display:inline-block;
                 color: #e8e8e8;
                 font-family: Josefin Sans-Regular;
                 font-size: 16px;
-                line-height: 26px;
+                line-height: 17px;
                 text-align:justify;
+
                 margin:auto;
                 margin-top:33px;
+                .quote_container{
+                    display:inline-block;
+                    height:36px;
+                    width:25px;
+                }
+                    .title-container__description_icon{
+                        display:block;
+                        height:25px;
+                        width:22px;
+                        fill:#5474fd;
 
+                    }
             }
         }
     }
