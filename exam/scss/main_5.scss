@@ -4,14 +4,21 @@
     padding-top:229px;
     padding-bottom:100px;
 
+    @media screen and (max-width:767px) {
+        padding-top:120px;
+        padding-bottom:70px;
+    }
+
+    @media screen and (max-width:480px) {
+        padding-top:50px;
+        padding-bottom:50px;
+    }
+
     .content-container{
         display:flex;
 
-
-
         .title-container{
             display:inline-flex;
-            /*align-self:flex-end;*/
             flex-direction:column;
             width:540px;
             align-self:flex-end;
@@ -19,18 +26,24 @@
             padding: 50px 30px;
             margin-left:auto;
 
+            @media screen and (max-width:767px) {
+                margin:auto;
+            }
+
+            @media screen and (max-width:480px) {
+                padding: 30px 30px;
+            }
+
             .title-container__country{
                 display:inline-block;
-
                 color: #e8e8e8;
                 font-family: Josefin Sans-Regular;
                 font-size: 16px;
                 line-height: 26px;
                 text-align:justify;
                 letter-spacing: 1.6px;
-
-
             }
+
             .title-container__title{
                 display:inline-block;
                 color: #ffffff;
@@ -39,6 +52,13 @@
                 font-size: 36px;
                 line-height: 26px;
                 margin-top:30px;
+
+                @media screen and (max-width:480px) {
+                    font-size: 25px;
+                    text-align:center;
+                    margin:auto;
+                    margin-top:10px;
+                }
             }
 
             .title-container__description{
@@ -50,6 +70,9 @@
                 text-align:justify;
                 margin:auto;
                 margin-top:29px;
+                @media screen and (max-width:480px) {
+                    line-height: 20px;
+                }
             }
 
             .title-container__button{
@@ -66,7 +89,14 @@
                 letter-spacing: 1.2px;
                 line-height: 26px;
 
-
+                @media screen and (max-width:480px) {
+                    width: 150px;
+                    height: 50px;
+                    font-size: 14px;
+                    letter-spacing: 1.2px;
+                    margin:auto;
+                    margin-top:20px;
+                }
             }
         }
     }

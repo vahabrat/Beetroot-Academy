@@ -2,16 +2,37 @@
     background-color: #333333;
     padding-top:46px;
     padding-bottom:119px;
+
+    @media screen and (max-width:767px) {
+        padding-bottom:50px;
+    }
+
+    @media screen and (max-width:767px) {
+        padding-top:26px;
+    }
+
     .content-container{
         display:flex;
         flex-wrap:wrap;
         justify-content:space-between;
+
+        @media screen and (max-width:480px) {
+             flex-direction:column;
+
+        }
+
         .icon-container{
             display:inline-flex;
             flex-direction:column;
+            @media screen and (max-width:480px) {
+                margin-top:20px;
+
+            }
+
             .icon-container__icon{
                 margin:auto;
             }
+
             .icon-container__icon--1{
                 background-image:url(../images/3_1.png);
                 background-position: center;
@@ -25,6 +46,9 @@
                 background-position: center;
                 width: 60px;
                 height: 61px;
+                @media screen and (max-width:480px) {
+
+                }
             }
             .icon-container__icon--3{
                 background-image:url(../images/3_3.png);
@@ -40,12 +64,14 @@
                 color: #e8e8e8;
                 margin-top: 31px;
 
+                @media screen and (max-width:767px) {
+                    font-size: 20px;
+                }
+                @media screen and (max-width:480px) {
+                    margin:auto;
+                    margin-top:10px;
+                }
             }
-        }
-        .radius{
-
-
-
         }
     }
 }
