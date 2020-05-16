@@ -1,0 +1,109 @@
+.main-container-3{
+    background-color: #333333;
+    padding-top:100px;
+    padding-bottom:119px;
+
+    @media screen and (max-width:767px) {
+        padding-bottom:50px;
+    }
+
+    @media screen and (max-width:767px) {
+        padding-top:26px;
+    }
+
+    .content-container{
+        position:relative;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:space-between;
+        max-width: 975px;
+        padding: 0;
+
+        @media screen and (max-width:480px) {
+             flex-direction:column;
+
+        }
+
+        .icon-container{
+            display:inline-flex;
+            flex-direction:column;
+
+            @media screen and (max-width:480px) {
+                margin-top:20px;
+            }
+
+            .icon-container__icon{
+                margin:auto;
+            }
+
+            .icon-container__icon--1{
+                background-image:url(../images/3_1.png);
+                background-position: center;
+                justify-content:center;
+                width: 58px;
+                height: 57px;
+            }
+
+            .icon-container__icon--2{
+                background-image:url(../images/3_2.png);
+                background-position: center;
+                width: 60px;
+                height: 61px;
+                @media screen and (max-width:480px) {
+                }
+            }
+
+            .icon-container__icon--3{
+                background-image:url(../images/3_3.png);
+                background-position: center;
+                width: 62px;
+                height: 59px;
+            }
+
+            .icon-container__description{
+                font-family: Aleo;
+                font-size: 36px;
+                line-height: 26px;
+                color: #e8e8e8;
+                margin-top: 31px;
+
+                @media screen and (max-width:767px) {
+                    font-size: 20px;
+                }
+
+                @media screen and (max-width:480px) {
+                    margin:auto;
+                    margin-top:10px;
+                }
+            }
+        }
+    }
+
+    .content-container::before {
+        position: absolute;
+        top:-60px;
+        left:15%;
+        width: 305px;
+        height: 65px;
+        content: "";
+        background: url(../images/dot.png) 50% no-repeat;
+
+        @media screen and (max-width:970px) {
+            display:none;
+        }
+    }
+
+    .content-container::after {
+        position: absolute;
+        top:-60px;
+        right:15%;
+        width: 305px;
+        height: 65px;
+        content: "";
+        background: url(../images/dot.png) 50% no-repeat;
+
+        @media screen and (max-width:970px) {
+            display:none;
+        }
+    }
+}
