@@ -1,0 +1,14 @@
+.main-container-7 {
+  background-color: black;
+}
+.main-container-7 .content-container .title-container {
+  background-color: red;
+}
+.main-container-7 .content-container .title-container .icons-container {
+  display: inline-block;
+  background-image: url(../images/instagramm.png);
+  background-size: cover;
+  color: black;
+  width: 17px;
+  height: 12px;
+}
