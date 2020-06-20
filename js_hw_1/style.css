@@ -1,0 +1,26 @@
+p, ul{
+margin:0;
+}
+
+.title{
+    background-color:yellow;
+    padding: 4px;
+    margin: 0;
+}
+
+.title.active{
+    background-color: red;
+}
+
+
+.content{
+    display:none;
+    background-color: #CCC;
+    height:0;
+}
+
+.content.active{
+    display:block;
+    height:auto;
+
+}
