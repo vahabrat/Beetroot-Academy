@@ -1,0 +1,219 @@
+.slick_slider_container{
+    display:flex;
+    flex-direction:column;
+    background-image:url(../images/2-layers_slide_bg.png);
+    background-size: cover;
+    padding-top: 140px;
+    padding-bottom: 140px;
+
+    .title{
+        display:flex;
+        flex-direction:column;
+        align-self:center;
+        margin:auto;
+        margin-bottom:100px;
+
+
+    }
+    .title::before{
+        content:'';
+        height:1px;
+        width:100px;
+        background-color:white;
+        margin:auto;
+        margin-bottom:71px;
+
+    }
+
+    .content-container{
+
+
+
+        position:relative;
+
+        .icon-container-svg{
+
+            display:flex;
+            border-radius: 50%;
+            border: 0.8px solid white;
+            justify-content:center;
+            align-items:center;
+            width:40px;
+            height:40px;
+
+
+            .icon_sprite{
+                display:inline-flex;
+                color:white;
+                fill: white;
+                width:15px;
+                height:15px;
+            }
+        }
+
+        .prev_arrow{
+            position:absolute;
+            top: 50%;
+            left: 6%;
+            z-index:2;
+        }
+        .next_arrow{
+            position:absolute;
+            top: 50%;
+            right: 6%;
+            z-index:2;
+        }
+
+        .slider {
+            display:flex;
+            margin:auto;
+            max-width: 1300px;
+            padding-left:1%;
+            padding-right:1%;
+
+            .card-container{
+                display:inline-block;
+
+                height: 514px;
+                width: 370px;
+
+                @media screen and (max-width:1499px) {
+
+                }
+
+                .card-item {
+                    width: 370px;
+                    margin: auto;
+                    background-color: white;
+                }
+
+                .card-img {
+                    display:inline-block;
+                    background-size: cover;
+                    width: 370px;
+                    height: 240px;
+
+                    @media screen and (max-width:1499px) {
+
+                    }
+                }
+                .card-img-1{
+                    background-image:url(../images/lauren-mancke-60633.png);
+                }
+                .card-img-2{
+                    background-image:url(../images/matthew-hamilton-202227.png);
+                }
+                .card-img-3{
+                    background-image:url(../images/joel-filipe-151690.png);
+                }
+                .card-title{
+                    margin-top: 30px;
+                    margin-bottom: 20px;
+                    margin-left: 20px;
+                    margin-right: 20px;
+                    height: 50px;
+                }
+                .card-description{
+
+                    height: 50px;
+                    margin-left: 20px;
+                    margin-right: 20px;
+                }
+                .person{
+                    display:flex;
+                    .person__img-container{
+                        display: inline-flex;
+                        height:60px;
+                        width:60px;
+                        margin-left:20px;
+                        margin-right:20px;
+                        margin-bottom:30px;
+                        margin-top:35px;
+
+                    }
+                    .person__img-container-1{
+                        background-image:url(../images/photos-13323rs3Du9xyQ3KR.png);
+                    }
+                    .person__img-container-2{
+                        background-image:url(../images/photos-13323vsWmKApDZJIh.png);
+                    }
+                    .person__img-container-3{
+                        background-image:url(../images/photos-13323TAfapiSrc9IO.png);
+                    }
+
+                    .person__data{
+                        display:flex;
+                        flex-direction:column;
+
+
+                        .person__name{
+                            display:block;
+                            margin-top: 45px;
+                        }
+
+                        .person__date{
+                            display:block;
+                            margin-top: 14px;
+                            margin-bottom: 35px;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+.slider .slick-dots{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.slider .slick-dots li{
+    list-style:none;
+}
+
+.slider .slick-dots button::before{
+    font-size:0;
+
+    width:9px;
+    height:9px;
+    border-radius: 50%;
+    border: 1px solid white;
+    opacity: 1;
+    color: black;
+    margin-top:60px;
+}
+
+.slick-dots li.slick-active button:before{
+    opacity: 1;
+    background-color:white;
+}
+
+.card-container .slick-slide{
+    display:inline-block;
+    height: 514px;
+    width: 370px;
+
+}
+
+.slick-list{
+width:1170px;
+margin:auto;
+
+}
+
+.title:before{
+    content:'';
+    position:relative;
+    top:20px;
+    height:1px;
+    width:100px;
+    background-color:white;
+}
+
+
+
+
+

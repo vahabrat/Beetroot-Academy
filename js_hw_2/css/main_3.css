@@ -1,0 +1,66 @@
+.slick_slider_container {
+  background-image: url(../images/2-layers_slide_bg.png);
+  background-size: cover;
+  padding-top: 75px;
+  padding-bottom: 150px;
+}
+.slick_slider_container .content-container {
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+}
+.slick_slider_container .content-container .icon-container-svg {
+  display: flex;
+  border-radius: 30px;
+  border: 5px solid white;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  position: relative;
+}
+.slick_slider_container .content-container .icon-container-svg .icon_sprite {
+  display: inline-flex;
+  fill: black;
+  width: 15px;
+  height: 15px;
+}
+.slick_slider_container .content-container .prev_arrow {
+  position: relative;
+  top: 50%;
+  left: 50%;
+}
+.slick_slider_container .content-container .next_arrow {
+  position: relative;
+  top: 50%;
+  left: 50%;
+}
+.slick_slider_container .content-container .slider {
+  display: inline-block;
+  margin: auto;
+  width: 1170px;
+}
+.slick_slider_container .content-container .slider .card-container {
+  display: inline;
+  height: 514px;
+  width: 350px;
+}
+.slick_slider_container .content-container .slider .card-container .card-img {
+  display: inline-block;
+  background-image: url(../images/lauren-mancke-60633.png);
+  background-size: cover;
+  width: 370px;
+  height: 240px;
+}
+.slick_slider_container .content-container .slider .card-container .person .person__img-container {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  background-image: url(../images/photos-13323rs3Du9xyQ3KR.png);
+}
+.slick_slider_container .content-container .slider .card-container .person .person__data {
+  display: inline-block;
+}

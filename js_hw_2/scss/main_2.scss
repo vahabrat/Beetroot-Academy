@@ -1,0 +1,185 @@
+.main-container-2{
+
+    flex-direction:column;
+    min-height: 1540px;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    position:relative;
+
+    .blue-bg{
+        display:inline-flex;
+        width: 585px;
+        height: 470px;
+        background-color: #55b7ff;
+        position:absolute;
+        top: 270px;
+        left: 0px;
+        z-index:-1;
+    }
+
+    .purple-bg{
+        display:inline-flex;
+        width: 585px;
+        height: 470px;
+        background-color: #7e5aff;
+        position:absolute;
+        bottom: 210px;
+        right: 0px;
+        z-index:-1;
+    }
+
+    .title{
+        display:flex;
+        flex-direction:column;
+        text-align:center;
+        margin:auto;
+        margin-bottom:100px;
+    }
+
+    .title::before{
+        content:'';
+        height:1px;
+        width:100px;
+        background-color:black;
+        margin:auto;
+        margin-bottom:71px;
+
+    }
+    .content-container-1{
+        display:flex;
+        justify-content:space-between;
+        max-width:1160px;
+        margin:auto;
+        margin-bottom:210px;
+
+        .img-container{
+            display:inline-flex;
+            background-image:url(../images/joel-filipe-151697.png);
+            background-size: cover;
+            background-position:center;
+            width: 630px;
+            height: 470px;
+        }
+
+        .title-container{
+            display:flex;
+            flex-direction:column;
+            width: 460px;
+            color: #2c4058;
+
+            .title-container__title{
+                display:inline-flex;
+                flex-direction:column;
+                font-family: Gotham;
+                font-size: 44px;
+                font-weight: 700;
+                margin-top:59px;
+
+                span {
+                    font-family: "Gotham - Book";
+                    font-size: 22px;
+                    font-weight: 400;
+                }
+            }
+            .title-container__description{
+                display:inline-flex;
+                margin-top: 39px;
+            }
+            .title-container__button{
+                width: 190px;
+                height: 50px;
+                border: 1px solid #2c4058;
+                margin-top: 36px;
+            }
+            .title-container__country{
+                display:inline-flex;
+                margin-top: 60px;
+
+                .icon-container-svg{
+                    display:inline-flex;
+                    justify-content:center;
+                    align-items:center;
+                    margin-right:7px;
+
+                    .icon_sprite{
+                         display:inline-flex;
+                         color:black;
+                         fill: black;
+                         width:15px;
+                         height:15px;
+                    }
+                }
+            }
+        }
+    }
+    .content-container-2{
+        display:flex;
+        justify-content:space-between;
+        max-width:1160px;
+        margin:auto;
+
+        .title-container{
+            display:flex;
+            flex-direction:column;
+            width: 460px;
+            color: #2c4058;
+
+            .title-container__title{
+                display:inline-flex;
+                flex-direction:column;
+                font-family: Gotham;
+                font-size: 44px;
+                font-weight: 700;
+                margin-top:59px;
+
+                span {
+                    font-family: "Gotham - Book";
+                    font-size: 22px;
+                    font-weight: 400;
+                }
+            }
+
+            .title-container__description{
+                display:inline-flex;
+                margin-top: 39px;
+            }
+
+            .title-container__button{
+                width: 190px;
+                height: 50px;
+                border: 1px solid #2c4058;
+                margin-top: 36px;
+            }
+
+            .title-container__country{
+                display:inline-flex;
+                margin-top: 60px;
+
+                .icon-container-svg{
+                    display:inline-flex;
+                    justify-content:center;
+                    align-items:center;
+
+                    .icon_sprite{
+                         display:inline-flex;
+                         color:black;
+                         fill: black;
+                         width:15px;
+                         height:15px;
+                         margin-right:7px;
+                    }
+                }
+            }
+        }
+
+        .img-container{
+            display:inline-flex;
+            background-image:url(../images/photos-1284iH4Hjf4mhNgW.png);
+            background-size: cover;
+            background-position:center;
+            width: 630px;
+            height: 470px;
+        }
+    }
+}
+
