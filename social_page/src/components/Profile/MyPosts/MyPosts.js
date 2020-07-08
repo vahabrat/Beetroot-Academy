@@ -10,7 +10,7 @@ import { addPostActionCreator,
 
 
 const MyPosts = (props) => {
-
+    const [text, setText] = React.useState('');
     let postsElements = props.posts.map((post) => {
         return (<Post id={post.id} message={post.message} likesCount={post.likesCount}/>
         )
@@ -23,9 +23,8 @@ const MyPosts = (props) => {
     }
 
     let onPostChange = () => {
-
         let text = newPostElement.current.value;
-        let action = updateNewPostTextActionCreator();
+        let action = updateNewPostTextActionCreator(text);
         props.dispatch(action);
     }
 

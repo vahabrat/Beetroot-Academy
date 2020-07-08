@@ -56,8 +56,7 @@ let store = {
     },
 
     dispatch(action) {
-
-        if(action === 'ADD_POST') {
+        if(action.type === 'ADD_POST') {
 
             var newPost = {
                 id: 6,
