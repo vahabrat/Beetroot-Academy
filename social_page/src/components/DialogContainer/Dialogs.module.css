@@ -1,10 +1,10 @@
 .dialogs{
-    diaplay:grid;
-    grid-template-columns: 2fr 10fr;
+    display:flex;
+
 }
 
 .dialogsItems{
-    padding: 10px;
+    padding: 20px;
     color:white;
 }
 
@@ -13,8 +13,10 @@
 }
 
 .dialogsItems .dialog{
-
+    padding: 5px;
 }
+
+
 
 
 
