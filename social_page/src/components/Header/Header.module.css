@@ -1,0 +1,10 @@
+.header{
+    display:flex;
+    background-color:gold;
+}
+
+.header img{
+    display:inline-flex;
+    height:100px;
+    width:100px;
+}

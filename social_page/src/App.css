@@ -1,0 +1,19 @@
+.app-wrapper {
+    margin: 0 auto;
+    display: flex;
+    flex-direction:column;
+    width: 1200px;
+
+
+}
+
+.app-wrapper-content{
+
+    background-color: cornflowerblue;
+
+}
+
+.nav-content-wrapper{
+    display:flex;
+    flex-direction:row;
+}
