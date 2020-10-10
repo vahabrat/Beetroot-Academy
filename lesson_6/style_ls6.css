@@ -1,0 +1,168 @@
+*{
+box-sizing:border-box;
+}
+
+.container{
+height:976px;
+width:1280px;
+background-color:#ffffff;
+}
+
+.background_grid{
+width: 960px;
+height:976px;
+background: linear-gradient(to right ,#ffe5e5 75%, #ffffff 25%);
+background-size:8.5% 40px;
+margin:auto;
+
+}
+
+.card_container{
+display:flex;
+}
+
+.card{
+width: 240px;
+height: 420px;
+background-color: #f7f7f7;
+opacity:0.5;
+text-align:center;
+}
+
+/*.card_1:hover{
+background-color:#0ec8cb;
+color:white;
+}*/
+
+
+.card:hover{
+background-color:#0ec8cb;
+color:white;
+}
+
+.card:nth-of-type(1)>.img:hover{
+opacity:0.3;
+}
+
+/*.card:hover .img{
+background-image:white;
+color:white;
+filter:invert 100%
+}*/
+
+
+.head_title{
+display:inline-block;
+height: 167px;
+width: 532px;
+text-align: center;
+margin-top:250px;
+margin:137px 200px;
+}
+
+/*img{
+margin-top:60px;
+}*/
+
+/*div:nth-of-type(3) img{
+margin-top:75px;
+}
+
+div:nth-of-type(4) img{
+margin-top:72px;
+}*/
+
+
+/*.img{
+margin:50px;
+background-image: url(./icons/anchor.svg);
+height:65px;
+background-repeat: no-repeat;
+background-position-x:center;
+}*/
+
+/*div:nth-of-type(1) .img{
+margin:50px;
+background-image: url(./icons/anchor.svg);
+height:65px;
+background-repeat: no-repeat;
+background-position-x:center;
+}*/
+
+.card:nth-of-type(1)>.img{
+margin:50px;
+background-image: url(./icons/anchor.svg);
+height:65px;
+background-repeat: no-repeat;
+background-position-x:center;
+}
+
+.card:nth-of-type(2)>.img{
+margin:50px;
+background-image: url(./icons/diamond11.svg);
+height:65px;
+background-repeat: no-repeat;
+background-position-x:center;
+}
+
+.card:nth-of-type(3)>.img{
+margin:50px;
+background-image: url(./icons/glasses.svg);
+height:65px;
+background-repeat: no-repeat;
+background-position-x:center;
+}
+
+.card:nth-of-type(4)>.img{
+margin:50px;
+background-image: url(./icons/tv.svg);
+height:65px;
+background-repeat: no-repeat;
+background-position-x:center;
+}
+
+/*div:nth-of-type(3) h3{
+margin-top:66px;
+}
+
+div:nth-of-type(4) h3{
+margin-top:63px;
+}*/
+
+
+.description{
+display:inline-block;
+margin-top:20px;
+padding: 20px 20px;
+}
+
+.title_1{
+color: #898f99;
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 4.8px;
+}
+
+.title_2{
+color:#0ec8cb;
+font-family: Montserrat;
+font-size: 48px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 4.8px;
+}
+
+.title_3{
+color: #999999;
+font-family: "PT Sans";
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+text-transform: uppercase;
+}
+
+
+
+
