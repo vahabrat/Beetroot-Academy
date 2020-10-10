@@ -1,0 +1,46 @@
+%bgimgproperties{
+background-repeat:no-repeat;
+background-size: cover;
+}
+
+%titlecontainerdescription{
+font-family: Raleway-Light;
+font-weight:300;
+font-size:17px;
+}
+
+%titlecontainertitle{
+font-family: Raleway-Bold;
+font-weight:700;
+}
+
+%button{
+display:block;
+width: 200px;
+height: 55px;
+color: #ffffff;
+box-shadow:
+0 6px rgb(86,38,6),
+0 3px 15px rgba(0,0,0,.4),
+inset 0 1px rgba(255,255,255,.3),
+inset 0 0 3px rgba(255,255,255,.5);
+font-family:Raleway-Light;
+font-size: 20px;
+font-weight: 300;
+line-height: 25px;
+text-transform: uppercase;
+margin:auto;
+transition: .3s;
+border:none;
+}
+
+%buttonhover{
+box-shadow:
+0 2px rgb(86,38,6),
+0 1px 6px rgba(0,0,0,.4),
+inset 0 1px rgba(255,255,255,.3),
+inset 0 0 3px rgba(255,255,255,.5);
+-webkit-transform: translate(0, 4px);
+transform: translate(0, 4px);
+}
+
